@@ -1,4 +1,4 @@
-﻿console.log('6. Arrays: 3. Finding Elements (Reference)')
+﻿console.log('6. Arrays: 4. Finding Elements (Reference)')
 
 
 // Finding Elements: Primitive vs Reference types
