@@ -1,16 +1,15 @@
 ﻿console.log('Exercise 8: Sum of Multiples of 3 and 5')
 
-const movie = {
-    title: 'a',
-    releaseYear: 2018,
-    rating: 4.5,
-    director: 'b'
-};
+console.log(sum(10));
 
-showProperties(movie);
+// multiples of 3: 3, 6, 9
+// multiples of 5: 5, 10
+function sum(limit) {
+    let total = 0;
 
-function showProperties(obj) {
-    for(let p in obj)
-        if(typeof obj[p] === 'string')
-            console.log(p, ':', obj[p]);
+    for (let i = 1; i <= limit; i++)
+        if (i % 3 === 0 || i % 5 === 0)
+            total += i;
+
+    return total;
 }
